@@ -1760,507 +1760,507 @@ const IntegratedReasoning = [{
 }
 ];
 // Quizes
-const Quizes = [{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/4a6e362ee99c7709f70f947220e6191b1a28ee4f-video-8682/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Math/Arithmetic and Fractions/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/b2b5a2bd8aa284c183f96000ed8210e6f8dd08dd-video-1695/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Math/Arithmetic and Fractions/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/9136ffcc6b4aa12cb0b25c78b3900ff7fe528cca-video-1686/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Math/Arithmetic and Fractions/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/ee55234028c7b194fd0f4fb4f2b3b15e2d771e02-video-15444/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Math/Arithmetic and Fractions/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/31bf2b13b676a90bf2249e25a0e2f2a31dec7741-video-7453/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Math/Arithmetic and Fractions/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/a13d0f6ca4ae6acc35503e832c6598127219db0f-video-4270/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Math/Percents and Ratios/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/640c89a5f4cc28cc363cca507078158ab0d1af1b-video-1601/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Math/Percents and Ratios/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/81a121c84476da98b82cadf1ec3316b696614f70-video-3149/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Math/Percents and Ratios/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/064eb87612286c487977a60b8e5803624978e3f0-video-1861/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Math/Percents and Ratios/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/66031d7661ec55a4a80f8ab7bb147c2b232ac867-video-13870/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Math/Percents and Ratios/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/1ee9ec3b330670ebff8c3f0f6e64f83c45f01c1d-video-1755/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Math/Integer Properties/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/c8213d7613518e1479c2e329c96d8fc98409ef31-video-13774/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Math/Integer Properties/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/236870ad6016a839f0d4eb73c94d9d5190cdafcc-video-3157/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Math/Integer Properties/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/0de6fff96c304dff4892d8dba989b45f9bc37917-video-8749/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Math/Integer Properties/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/22686e70e9ab8d6cfcd0dad0fe56c94ad580e477-video-1535/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Math/Integer Properties/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/c23f3482228d2f00e188e2b51893f6cb7d35a889-video-1823/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Math/Algebra, Equations, and Inequalities/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/e93660d9bfdd9b00968a87cea2ffbea110f075af-video-12348/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Math/Algebra, Equations, and Inequalities/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/03d86d3bccd850b76f52a38358897ea8e312688d-video-1380/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Math/Algebra, Equations, and Inequalities/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/51282eb31d01863cb8965836128529cdc2e6cd22-video-1824/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Math/Algebra, Equations, and Inequalities/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/43510f3f9c559246453bbe1b1f892700b10b3c6c-video-1355/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Math/Algebra, Equations, and Inequalities/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/eebbbfb0a529f756328af40c60ebf8d7a6b400d8-video-1795/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Math/Word Problems/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/f3404462806960243a07444d9cd4d2e6b37eda56-video-1284/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Math/Word Problems/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/43c44a29e6f4f37f9e7d114549b417e6cc72d6f6-video-1254/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Math/Word Problems/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/3cc569f9c5cb0a64732b1ac06332b1ed09c8ba4e-video-1866/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Math/Word Problems/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/a37c544e04540bb11850b20895c77cfc6bfd4a1e-video-1557/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Math/Word Problems/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/2800409bc3757685130e7dfdaac85711f8eac109-video-8681/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Math/Powers and Roots/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/ea6c0b18fb1b57d17eb8e62a1d8fe1db6ae327e8-video-1652/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Math/Powers and Roots/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/4e88f98a948dfad338f74dae5b730bf4c92a3231-video-1620/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Math/Powers and Roots/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/fe2201f77ba20fa5e089782cc2ae3765c0137def-video-8735/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Math/Powers and Roots/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/41f225a2e0098e48db7fb2563036097f6d23380c-video-1684/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Math/Powers and Roots/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/d1bd3fc0ad0907cbb92865c9c995b39d121dd7d8-video-8738/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Math/Geometry/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/4be0bb29a8c9e60e27dbf8526321da5261dc091f-video-1333/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Math/Geometry/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/6b40d65021c1daa3aa9666bb3b2ced085d63dffc-video-1313/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Math/Geometry/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/bbf25d1579b37b2a7b0f639efb8d72659d8aec6e-video-1879/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Math/Geometry/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/a3c29a02d0ad925d865d5cd60fc80b5eb99062a5-video-13009/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Math/Geometry/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/fd557614fdec13e38cad8997ed404d363bf017f8-video-1895/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Math/Coordinate Geometry/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/53eea280db793017236f82b911d5bef6e6dae60f-video-1709/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Math/Coordinate Geometry/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/fba9cf0e9bd61408bf5d88450b1a9764030a9bbb-video-1699/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Math/Coordinate Geometry/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/8acd1ce6dad8c778fd3bf3db20fefb5bedc3bd69-video-8705/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Math/Coordinate Geometry/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/9a54b9e7339bff51a1f87dbc213aab1ed97069ff-video-4297/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Math/Coordinate Geometry/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/900a8c47fda664b6e8ae76b59dfd994add485c6b-video-1806/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Math/Statistics/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/9d1c5c2a8ca0738d3b93c4ed3d6f479b450a079f-video-1585/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Math/Statistics/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/8b79bc892e6944c14162b2f7aac064cd11689fa8-video-10121/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Math/Statistics/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/068c41a8eda37471c3ef7d03ce40be1c066c1d3f-video-1809/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Math/Statistics/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/95950466a7cc7a30b1e416e7954fdb0ed1949386-video-1578/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Math/Statistics/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/c3e358736f541c0e2b8fde8132bcd4bec8330e1f-video-8700/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Math/Counting/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/654fd9631e85e17191071de2741b06ecad231124-video-1696/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Math/Counting/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/39fd953248ffd4424b6aec1f5364c2fc02fcaec5-video-1286/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Math/Counting/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/c27a21e5c7b2bdcf5fa80e5deab566e3970939b5-video-1728/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Math/Counting/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/2a31fb1b1f63b4c22bb7007b30ef87a775d07a7a-video-1740/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Math/Counting/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/30dc936a89c42d71090410efbddcebd20b485687-video-1903/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Math/Probability/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/f45664460ff150e93b7628a9ed804d9808aaecd0-video-1723/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Math/Probability/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/09de729881bd6ddbd2882a7fab4f1efc9b2f95be-video-1745/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Math/Probability/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/3f1dc74a290d65fb123467a803eaa0894c77f07c-video-8713/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Math/Probability/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/df76a19e6a63464640b325f3574e1a3e155a6e2e-video-1741/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Math/Probability/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/7c84961826a22b06b328a8620b6b83bd8e00c7ca-video-15096/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Verbal/Sentence Correction - Agreement/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/1ce6fdc409ade9e6de6132349d1f14772049e1d6-video-3469/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Verbal/Sentence Correction - Agreement/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/fd148747b303f4cb137ee2fefb75e06e99e7833a-video-3387/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Verbal/Sentence Correction - Agreement/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/8c481abcc4b4d65170627b947faeec5f492417fc-video-3727/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Verbal/Sentence Correction - Agreement/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/ab6729053ae18f679b2235ee8dc32df4a33330c9-video-15072/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Verbal/Sentence Correction - Agreement/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/8b394589fbcc4aa4fd613954f11d952471dec726-video-3399/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Verbal/Sentence Correction - Grammatical Construction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/d00c895df7b9ba63e648c86701b29822c080d2c1-video-3413/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Verbal/Sentence Correction - Grammatical Construction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/7b01e7b3f0a1205029927d1db3de333d08e14ca9-video-8574/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Verbal/Sentence Correction - Grammatical Construction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/f1d12de1bee16f8c3f45afc596f741cee87e44ca-video-3408/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Verbal/Sentence Correction - Grammatical Construction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/ff624922b4d19c8c755fbec8a057e0acfc685965-video-4368/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Verbal/Sentence Correction - Grammatical Construction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/e9a007bd33cc6939e2acc5178b1c521c90254b4f-video-3400/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Verbal/Sentence Correction - Parallelism/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/d3e60c01f7069b0ec5561abc5307dbd68018e37c-video-3410/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Verbal/Sentence Correction - Parallelism/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/e6df2f92fdc3ba9dd8ec5ebf7f35ff02221773e6-video-3421/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Verbal/Sentence Correction - Parallelism/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/e365828504e85a136e030f3f36992a6e2d01b2ce-video-3427/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Verbal/Sentence Correction - Parallelism/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/1c77f2cc470fd1d9c3bcccd5d2d3edd798847984-video-3417/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Verbal/Sentence Correction - Parallelism/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/6e40bf2b6eb65b2a7457401b53ead069866f4df1-video-3741/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Verbal/Sentence Correction - Logical Predication/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/6f5387951cf11447339dfdf708510c45fe74ea00-video-3730/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Verbal/Sentence Correction - Logical Predication/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/dc5a4efe4c9566786769c5738738e77ce8f982b3-video-3407/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Verbal/Sentence Correction - Logical Predication/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/be6e6714a0dfb4c2c09ba7771b26ffca59b9cfc4-video-3429/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Verbal/Sentence Correction - Logical Predication/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/8d6678f967e978ba131b9324c53363a9c48f2697-video-3453/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Verbal/Sentence Correction - Logical Predication/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/cd7c1e26f01bdd3c55d4d073c47b1307d9b3ef83-video-15103/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Verbal/Sentence Correction - Diction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/ed989dc3adb96d4bded7fe8bcdedafcd23756707-video-8538/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Verbal/Sentence Correction - Diction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/00ff305ced13eb966ef0af1c36f70a784dce22b3-video-8520/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Verbal/Sentence Correction - Diction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/48198d950035c6808042c61b77138216acff8c47-video-15049/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Verbal/Sentence Correction - Diction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/fddc5edc038f6bc123c9d863d2e045815f396d6e-video-8521/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Verbal/Sentence Correction - Diction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/9722d9b32fa04df985a0612d0ccf0307a136b304-video-3401/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Verbal/Sentence Correction - Idiom/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/fbbd964782e34eae18bded18cc0fecfe7005e925-video-15101/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Verbal/Sentence Correction - Idiom/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/75ae7c5cd7e903d31d8169b450925ba457dcda01-video-3724/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Verbal/Sentence Correction - Idiom/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/a5b08cc20a05089bf6717fa58bae639671e79f96-video-3734/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Verbal/Sentence Correction - Idiom/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/cc84c0b795261b3e4a684eab345ba3304f91974b-video-8522/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Verbal/Sentence Correction - Idiom/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/631b27ab1fd3a32f08f54850c8e776598f73da30-video-15039/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Verbal/Sentence Correction - Rhetorical Construction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/a02f066ff1474b191b3ddb20630e1b54f6764999-video-15089/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Verbal/Sentence Correction - Rhetorical Construction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/660e0c1ea71b7da4b62d7ef1b52c242dfed2bcee-video-8540/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Verbal/Sentence Correction - Rhetorical Construction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/cd794db16eed77b32893be6b163d7fd49fb24375-video-8561/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Verbal/Sentence Correction - Rhetorical Construction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/08e9a003274ffeed1d09b9332e40b33b2f6aa329-video-8545/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Verbal/Sentence Correction - Rhetorical Construction/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/8fa088f03c0cec9648d23d7c359878e182398520-video-3888/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Verbal/Critical Reasoning/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/5e68d45f3746ba2104b8ac8007b0e8492c664b48-video-3576/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Verbal/Critical Reasoning/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/46ea4945fd6a95792369087ef559bb48f79888ff-video-16166/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Verbal/Critical Reasoning/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/64173b4377e8f9c6a05c12af8a5aaca8f07b417c-video-3859/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Verbal/Critical Reasoning/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/981b8e5e3362b0cf107a61c91f88a42b3fbc49e9-video-3315/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Verbal/Critical Reasoning/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/6a7e3b5a5309920b45f9bbbe40e99d47c0c6f9c0-video-8881/web_webm.webm',
-    fileName:'Q1',
-    folderName: 'Integrated Reasoning/Integrated Reasoning/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/08e7fde201f2b6acb8fa65e656b90cfee0ca2f5f-video-4377/web_webm.webm',
-    fileName:'Q2',
-    folderName: 'Integrated Reasoning/Integrated Reasoning/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/d08e09a23d0e80c42686b739560add37d972722a-video-4384/web_webm.webm',
-    fileName:'Q3',
-    folderName: 'Integrated Reasoning/Integrated Reasoning/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/c588fab65a3d27b65aa7717d38a5129863aba237-video-2851/web_webm.webm',
-    fileName:'Q4',
-    folderName: 'Integrated Reasoning/Integrated Reasoning/Quiz/Solution' 
-},
-{
-    url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/4e8490ccefcaf27266c442b52c04fda13d329a33-video-2852/web_webm.webm',
-    fileName:'Q5',
-    folderName: 'Integrated Reasoning/Integrated Reasoning/Quiz/Solution' 
-}
-];
+// const Quizes = [{
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/4a6e362ee99c7709f70f947220e6191b1a28ee4f-video-8682/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Math/Arithmetic and Fractions/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/b2b5a2bd8aa284c183f96000ed8210e6f8dd08dd-video-1695/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Math/Arithmetic and Fractions/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/9136ffcc6b4aa12cb0b25c78b3900ff7fe528cca-video-1686/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Math/Arithmetic and Fractions/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/ee55234028c7b194fd0f4fb4f2b3b15e2d771e02-video-15444/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Math/Arithmetic and Fractions/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/31bf2b13b676a90bf2249e25a0e2f2a31dec7741-video-7453/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Math/Arithmetic and Fractions/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/a13d0f6ca4ae6acc35503e832c6598127219db0f-video-4270/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Math/Percents and Ratios/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/640c89a5f4cc28cc363cca507078158ab0d1af1b-video-1601/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Math/Percents and Ratios/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/81a121c84476da98b82cadf1ec3316b696614f70-video-3149/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Math/Percents and Ratios/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/064eb87612286c487977a60b8e5803624978e3f0-video-1861/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Math/Percents and Ratios/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/66031d7661ec55a4a80f8ab7bb147c2b232ac867-video-13870/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Math/Percents and Ratios/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/1ee9ec3b330670ebff8c3f0f6e64f83c45f01c1d-video-1755/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Math/Integer Properties/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/c8213d7613518e1479c2e329c96d8fc98409ef31-video-13774/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Math/Integer Properties/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/236870ad6016a839f0d4eb73c94d9d5190cdafcc-video-3157/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Math/Integer Properties/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/0de6fff96c304dff4892d8dba989b45f9bc37917-video-8749/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Math/Integer Properties/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/22686e70e9ab8d6cfcd0dad0fe56c94ad580e477-video-1535/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Math/Integer Properties/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/c23f3482228d2f00e188e2b51893f6cb7d35a889-video-1823/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Math/Algebra, Equations, and Inequalities/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/e93660d9bfdd9b00968a87cea2ffbea110f075af-video-12348/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Math/Algebra, Equations, and Inequalities/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/03d86d3bccd850b76f52a38358897ea8e312688d-video-1380/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Math/Algebra, Equations, and Inequalities/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/51282eb31d01863cb8965836128529cdc2e6cd22-video-1824/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Math/Algebra, Equations, and Inequalities/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/43510f3f9c559246453bbe1b1f892700b10b3c6c-video-1355/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Math/Algebra, Equations, and Inequalities/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/eebbbfb0a529f756328af40c60ebf8d7a6b400d8-video-1795/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Math/Word Problems/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/f3404462806960243a07444d9cd4d2e6b37eda56-video-1284/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Math/Word Problems/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/43c44a29e6f4f37f9e7d114549b417e6cc72d6f6-video-1254/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Math/Word Problems/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/3cc569f9c5cb0a64732b1ac06332b1ed09c8ba4e-video-1866/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Math/Word Problems/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/a37c544e04540bb11850b20895c77cfc6bfd4a1e-video-1557/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Math/Word Problems/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/2800409bc3757685130e7dfdaac85711f8eac109-video-8681/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Math/Powers and Roots/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/ea6c0b18fb1b57d17eb8e62a1d8fe1db6ae327e8-video-1652/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Math/Powers and Roots/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/4e88f98a948dfad338f74dae5b730bf4c92a3231-video-1620/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Math/Powers and Roots/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/fe2201f77ba20fa5e089782cc2ae3765c0137def-video-8735/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Math/Powers and Roots/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/41f225a2e0098e48db7fb2563036097f6d23380c-video-1684/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Math/Powers and Roots/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/d1bd3fc0ad0907cbb92865c9c995b39d121dd7d8-video-8738/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Math/Geometry/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/4be0bb29a8c9e60e27dbf8526321da5261dc091f-video-1333/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Math/Geometry/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/6b40d65021c1daa3aa9666bb3b2ced085d63dffc-video-1313/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Math/Geometry/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/bbf25d1579b37b2a7b0f639efb8d72659d8aec6e-video-1879/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Math/Geometry/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/a3c29a02d0ad925d865d5cd60fc80b5eb99062a5-video-13009/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Math/Geometry/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/fd557614fdec13e38cad8997ed404d363bf017f8-video-1895/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Math/Coordinate Geometry/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/53eea280db793017236f82b911d5bef6e6dae60f-video-1709/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Math/Coordinate Geometry/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/fba9cf0e9bd61408bf5d88450b1a9764030a9bbb-video-1699/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Math/Coordinate Geometry/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/8acd1ce6dad8c778fd3bf3db20fefb5bedc3bd69-video-8705/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Math/Coordinate Geometry/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/9a54b9e7339bff51a1f87dbc213aab1ed97069ff-video-4297/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Math/Coordinate Geometry/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/900a8c47fda664b6e8ae76b59dfd994add485c6b-video-1806/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Math/Statistics/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/9d1c5c2a8ca0738d3b93c4ed3d6f479b450a079f-video-1585/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Math/Statistics/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/8b79bc892e6944c14162b2f7aac064cd11689fa8-video-10121/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Math/Statistics/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/068c41a8eda37471c3ef7d03ce40be1c066c1d3f-video-1809/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Math/Statistics/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/95950466a7cc7a30b1e416e7954fdb0ed1949386-video-1578/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Math/Statistics/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/c3e358736f541c0e2b8fde8132bcd4bec8330e1f-video-8700/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Math/Counting/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/654fd9631e85e17191071de2741b06ecad231124-video-1696/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Math/Counting/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/39fd953248ffd4424b6aec1f5364c2fc02fcaec5-video-1286/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Math/Counting/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/c27a21e5c7b2bdcf5fa80e5deab566e3970939b5-video-1728/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Math/Counting/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/2a31fb1b1f63b4c22bb7007b30ef87a775d07a7a-video-1740/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Math/Counting/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/30dc936a89c42d71090410efbddcebd20b485687-video-1903/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Math/Probability/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/f45664460ff150e93b7628a9ed804d9808aaecd0-video-1723/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Math/Probability/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/09de729881bd6ddbd2882a7fab4f1efc9b2f95be-video-1745/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Math/Probability/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/3f1dc74a290d65fb123467a803eaa0894c77f07c-video-8713/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Math/Probability/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/df76a19e6a63464640b325f3574e1a3e155a6e2e-video-1741/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Math/Probability/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/7c84961826a22b06b328a8620b6b83bd8e00c7ca-video-15096/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Verbal/Sentence Correction - Agreement/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/1ce6fdc409ade9e6de6132349d1f14772049e1d6-video-3469/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Verbal/Sentence Correction - Agreement/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/fd148747b303f4cb137ee2fefb75e06e99e7833a-video-3387/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Verbal/Sentence Correction - Agreement/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/8c481abcc4b4d65170627b947faeec5f492417fc-video-3727/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Verbal/Sentence Correction - Agreement/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/ab6729053ae18f679b2235ee8dc32df4a33330c9-video-15072/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Verbal/Sentence Correction - Agreement/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/8b394589fbcc4aa4fd613954f11d952471dec726-video-3399/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Verbal/Sentence Correction - Grammatical Construction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/d00c895df7b9ba63e648c86701b29822c080d2c1-video-3413/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Verbal/Sentence Correction - Grammatical Construction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/7b01e7b3f0a1205029927d1db3de333d08e14ca9-video-8574/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Verbal/Sentence Correction - Grammatical Construction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/f1d12de1bee16f8c3f45afc596f741cee87e44ca-video-3408/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Verbal/Sentence Correction - Grammatical Construction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/ff624922b4d19c8c755fbec8a057e0acfc685965-video-4368/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Verbal/Sentence Correction - Grammatical Construction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/e9a007bd33cc6939e2acc5178b1c521c90254b4f-video-3400/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Verbal/Sentence Correction - Parallelism/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/d3e60c01f7069b0ec5561abc5307dbd68018e37c-video-3410/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Verbal/Sentence Correction - Parallelism/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/e6df2f92fdc3ba9dd8ec5ebf7f35ff02221773e6-video-3421/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Verbal/Sentence Correction - Parallelism/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/e365828504e85a136e030f3f36992a6e2d01b2ce-video-3427/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Verbal/Sentence Correction - Parallelism/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/1c77f2cc470fd1d9c3bcccd5d2d3edd798847984-video-3417/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Verbal/Sentence Correction - Parallelism/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/6e40bf2b6eb65b2a7457401b53ead069866f4df1-video-3741/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Verbal/Sentence Correction - Logical Predication/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/6f5387951cf11447339dfdf708510c45fe74ea00-video-3730/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Verbal/Sentence Correction - Logical Predication/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/dc5a4efe4c9566786769c5738738e77ce8f982b3-video-3407/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Verbal/Sentence Correction - Logical Predication/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/be6e6714a0dfb4c2c09ba7771b26ffca59b9cfc4-video-3429/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Verbal/Sentence Correction - Logical Predication/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/8d6678f967e978ba131b9324c53363a9c48f2697-video-3453/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Verbal/Sentence Correction - Logical Predication/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/cd7c1e26f01bdd3c55d4d073c47b1307d9b3ef83-video-15103/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Verbal/Sentence Correction - Diction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/ed989dc3adb96d4bded7fe8bcdedafcd23756707-video-8538/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Verbal/Sentence Correction - Diction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/00ff305ced13eb966ef0af1c36f70a784dce22b3-video-8520/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Verbal/Sentence Correction - Diction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/48198d950035c6808042c61b77138216acff8c47-video-15049/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Verbal/Sentence Correction - Diction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/fddc5edc038f6bc123c9d863d2e045815f396d6e-video-8521/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Verbal/Sentence Correction - Diction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/9722d9b32fa04df985a0612d0ccf0307a136b304-video-3401/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Verbal/Sentence Correction - Idiom/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/fbbd964782e34eae18bded18cc0fecfe7005e925-video-15101/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Verbal/Sentence Correction - Idiom/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/75ae7c5cd7e903d31d8169b450925ba457dcda01-video-3724/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Verbal/Sentence Correction - Idiom/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/a5b08cc20a05089bf6717fa58bae639671e79f96-video-3734/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Verbal/Sentence Correction - Idiom/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/cc84c0b795261b3e4a684eab345ba3304f91974b-video-8522/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Verbal/Sentence Correction - Idiom/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/631b27ab1fd3a32f08f54850c8e776598f73da30-video-15039/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Verbal/Sentence Correction - Rhetorical Construction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/a02f066ff1474b191b3ddb20630e1b54f6764999-video-15089/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Verbal/Sentence Correction - Rhetorical Construction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/660e0c1ea71b7da4b62d7ef1b52c242dfed2bcee-video-8540/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Verbal/Sentence Correction - Rhetorical Construction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/cd794db16eed77b32893be6b163d7fd49fb24375-video-8561/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Verbal/Sentence Correction - Rhetorical Construction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/08e9a003274ffeed1d09b9332e40b33b2f6aa329-video-8545/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Verbal/Sentence Correction - Rhetorical Construction/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/8fa088f03c0cec9648d23d7c359878e182398520-video-3888/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Verbal/Critical Reasoning/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/5e68d45f3746ba2104b8ac8007b0e8492c664b48-video-3576/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Verbal/Critical Reasoning/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/46ea4945fd6a95792369087ef559bb48f79888ff-video-16166/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Verbal/Critical Reasoning/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/64173b4377e8f9c6a05c12af8a5aaca8f07b417c-video-3859/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Verbal/Critical Reasoning/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/981b8e5e3362b0cf107a61c91f88a42b3fbc49e9-video-3315/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Verbal/Critical Reasoning/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/6a7e3b5a5309920b45f9bbbe40e99d47c0c6f9c0-video-8881/web_webm.webm',
+//     fileName:'Q1',
+//     folderName: 'Integrated Reasoning/Integrated Reasoning/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/08e7fde201f2b6acb8fa65e656b90cfee0ca2f5f-video-4377/web_webm.webm',
+//     fileName:'Q2',
+//     folderName: 'Integrated Reasoning/Integrated Reasoning/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/d08e09a23d0e80c42686b739560add37d972722a-video-4384/web_webm.webm',
+//     fileName:'Q3',
+//     folderName: 'Integrated Reasoning/Integrated Reasoning/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/c588fab65a3d27b65aa7717d38a5129863aba237-video-2851/web_webm.webm',
+//     fileName:'Q4',
+//     folderName: 'Integrated Reasoning/Integrated Reasoning/Quiz/Solution' 
+// },
+// {
+//     url: 'https://d296n67kxwq0ge.cloudfront.net/audio_video/4e8490ccefcaf27266c442b52c04fda13d329a33-video-2852/web_webm.webm',
+//     fileName:'Q5',
+//     folderName: 'Integrated Reasoning/Integrated Reasoning/Quiz/Solution' 
+// }
+// ];
 
 const fullData = {
     Introdunction: {
