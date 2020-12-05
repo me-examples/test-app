@@ -1,4 +1,4 @@
-.todo-list {
+.chapter-list {
     background-color: white;
     margin: auto;
     width: 60%;
@@ -20,7 +20,7 @@
     padding: 10px;
 }
 
-.todo-item {
+.chapter-item {
     display: flex;
     justify-content: flex-start;
     align-items: center;

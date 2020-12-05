@@ -2263,7 +2263,7 @@ const IntegratedReasoning = [{
 // ];
 
 const fullData = {
-    Introdunction: {
+    Introduction: {
         Introduction: Intro
     },
     Math: {
