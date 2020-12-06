@@ -13,33 +13,38 @@ function VideosList({setCurrentVideo}) {
 	const [currentSubject, setSubject] = useState({ value: 'Introduction', label: 'Introduction' });
 	return (
 	  <div>
-	     <Select
+	    <Select
         value={currentSubject}
         onChange={(option) => {setSubject(option);}}
         options={subjects}
       />
       <hr/>
-	    <ul className="list-group">
 	      {
 	      	Object.keys(data[currentSubject.value]).map(chapKey => {
 						const chapter = data[currentSubject.value][chapKey];
-						return chapter.map(item => {
-							return (
-								<li style={{cursor: 'pointer'}} className="list-group-item" onClick={() => {
-									setCurrentVideo({
-										subject: currentSubject.value,
-										chapter: chapKey,
-										fileName: item.fileName,
-										url: item.url
-									});
-								}}>
-								  {(item.fileName).replace(/-/g, ' ')}
-								</li>
-							)
-						})
+						return (<div>
+						<div className="well well-sm" style={{backgroundColor: '#ffa5006b', wordWrap: 'break-word'}}>
+						  {chapKey}
+						</div>
+						<ul className="list-group">
+							{chapter.map(item => {
+								return (
+									<li style={{cursor: 'pointer'}} className="list-group-item" onClick={() => {
+										setCurrentVideo({
+											subject: currentSubject.value,
+											chapter: chapKey,
+											fileName: item.fileName,
+											url: item.url
+										});
+									}}>
+									  {(item.fileName).replace(/-/g, ' ')}
+									</li>
+								)
+							})}
+						</ul>
+						</div>);
 					})
 	      }
-	    </ul>
     </div>
 	)
 }
