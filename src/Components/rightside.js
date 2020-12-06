@@ -1,7 +1,6 @@
 import React from 'react';
 import VideoItem from './video-item';
 import PracticeItem from './practice-item';
-import PracticeItemHome from './practice-item-home';
 import {
   Switch,
   Route,
@@ -20,12 +19,7 @@ function RightSide() {
           <VideoItem />
         </div>
       </Route>
-       <Route path="/practice">
-         <div className="col-sm-10">
-          <PracticeItemHome />
-         </div>
-      </Route>
-      <Route path="/practice/:practiceId">
+      <Route path="/practice">
         <div className="col-sm-10">
           <PracticeItem />
         </div>
