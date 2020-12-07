@@ -7,6 +7,7 @@ function VideosList({setCurrentVideo}) {
 	const subjects = [
 	  { value: 'Introduction', label: 'Introduction' },
 	  { value: 'Math', label: 'Math' },
+	  { value: 'Verbal', label: 'Verbal' },
 	  { value: 'AWA', label: 'AWA' },
 	  { value: 'IntegratedReasoning', label: 'Reasoning' },
 	];
