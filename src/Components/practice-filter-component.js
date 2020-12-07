@@ -1241,6 +1241,8 @@ const getDifficultyOptions = () => {
   return [];
 }
 const [currentDifficulty, setDifficulty] = useState();
+const [currentSearch, setCurrentSearch] = useState('');
+const isDisabled = !((currentSubject && currentChapter && currentSection && currentDifficulty) || currentSearch.length);
 	return (
 		<div className="container-fluid">
 		  <div className="well well-sm">
@@ -1285,17 +1287,33 @@ const [currentDifficulty, setDifficulty] = useState();
 		        options={getDifficultyOptions()}
 		      />
 	      </div>
-	      <div className="col-sm-2">
-	        <button
-	          onClick={(v) => {
-	          	const path = `Practice/${currentSubject.value}/${currentChapter.value}/${currentSection.value}/${currentDifficulty.value}`;
-              const level4 = difficulties[currentSubject.value][currentChapter.value][currentSection.value]
-	          	setPracticeList({path, level4});
-	          }}
-	          disabled={!(currentSubject && currentChapter && currentSection && currentDifficulty)}
-	          type="button"
-	          className="btn btn-primary">Filter</button>
-	      </div>
+        <div className="col-sm-2">
+          <input
+            value={currentSearch}
+            onChange={e => {
+              const value = e.target.value;
+              setCurrentSearch(value);
+            }}
+            type="text"
+            className="form-control"
+            id="search"
+          />
+        </div>
+        <div className="col-sm-2">
+          <button
+            onClick={(v) => {
+              if (currentSearch) {
+                 setPracticeList({path: '', level4: '', currentSearch});
+              } else {
+                const path = `Practice/${currentSubject.value}/${currentChapter.value}/${currentSection.value}/${currentDifficulty.value}`;
+                const level4 = difficulties[currentSubject.value][currentChapter.value][currentSection.value]
+                setPracticeList({path, level4, currentSearch: ''});
+              }
+            }}
+            disabled={isDisabled}
+            type="button"
+            className="btn btn-primary">Filter</button>
+        </div>
 	      </div>
 		  </div>
 		</div>

@@ -19,6 +19,14 @@ function PracticeList({practiceDetails, setCurrentPractice}) {
 	  } else {
 	  	items = data[practiceDetails.path] ? data[practiceDetails.path]: [];
 	  }
+	} else if (practiceDetails.currentSearch) {
+		const term = (practiceDetails.currentSearch).replace(/ /g,"+");
+		Object.keys(data).forEach(key => {
+			const size = key.split('/').length;
+			if (key.includes(term) && size > 4) {
+				items = [...items, ...data[key]]
+			}
+		})
 	}
 	return (
 	  <div>
