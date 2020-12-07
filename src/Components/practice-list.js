@@ -2,8 +2,24 @@ import React from 'react';
 import { connect } from 'react-redux';
 import data from "../Data/practice_data";
 
-function PracticeList({practicePath, setCurrentPractice}) {
-  const items = practicePath && data[practicePath] ? data[practicePath]: [];
+function PracticeList({practiceDetails, setCurrentPractice}) {
+	let items = [];
+	if (practiceDetails.path){
+		const paths = practiceDetails.path.split('/');
+	  const diff = paths[paths.length-1];
+	  if(diff === 'All') {
+	  	const difficulties = practiceDetails.level4;
+	  	difficulties.forEach((d) => {
+	  		const p = paths.slice(0, paths.length-1);
+	  		p.push(d.value);
+	  		const l = p.join('/');
+	  		const v = data[l] ? data[l]: [];
+	  		items = [...items, ...v];
+	  	})
+	  } else {
+	  	items = data[practiceDetails.path] ? data[practiceDetails.path]: [];
+	  }
+	}
 	return (
 	  <div>
 	    {!!items.length && <ul className="list-group">
@@ -26,7 +42,7 @@ function PracticeList({practicePath, setCurrentPractice}) {
 }
 const mapStateToProps = state => {
 	return ({
-    practicePath: state.defaultReducer.practicePath
+    practiceDetails: state.defaultReducer.practiceDetails
   });
 }
 const mapDispatchToProps = dispatch => ({

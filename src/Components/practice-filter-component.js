@@ -1228,6 +1228,18 @@ const difficulties = {
     }
   }
 };
+const getDifficultyOptions = () => {
+  if (currentSubject && currentChapter && currentSection) {
+    const defaultOption = [{value:"All", label: "All"}];
+    const difficultyOptions = difficulties[currentSubject.value][currentChapter.value][currentSection.value];
+    let allOptions = [];
+    if(difficultyOptions.length) {
+      allOptions = [...defaultOption, ...difficultyOptions];
+    }
+    return allOptions;
+  }
+  return [];
+}
 const [currentDifficulty, setDifficulty] = useState();
 	return (
 		<div className="container-fluid">
@@ -1270,14 +1282,15 @@ const [currentDifficulty, setDifficulty] = useState();
 		      <Select
 		        value={currentDifficulty}
 		        onChange={(option) => {setDifficulty(option);}}
-		        options={currentSubject && currentChapter && currentSection ? difficulties[currentSubject.value][currentChapter.value][currentSection.value]:[]}
+		        options={getDifficultyOptions()}
 		      />
 	      </div>
 	      <div className="col-sm-2">
 	        <button
 	          onClick={(v) => {
-	          	const listPath = `Practice/${currentSubject.value}/${currentChapter.value}/${currentSection.value}/${currentDifficulty.value}`;
-	          	setPracticeList(listPath);
+	          	const path = `Practice/${currentSubject.value}/${currentChapter.value}/${currentSection.value}/${currentDifficulty.value}`;
+              const level4 = difficulties[currentSubject.value][currentChapter.value][currentSection.value]
+	          	setPracticeList({path, level4});
 	          }}
 	          disabled={!(currentSubject && currentChapter && currentSection && currentDifficulty)}
 	          type="button"
@@ -1289,8 +1302,8 @@ const [currentDifficulty, setDifficulty] = useState();
 	)
 }
 const mapDispatchToProps = dispatch => ({
- setPracticeList: (listPath) => {
- 	dispatch({ type: 'SET_PRACTICE_PATH', topicPath: listPath })}
+ setPracticeList: (params) => {
+ 	dispatch({ type: 'SET_PRACTICE_PATH', params: params })}
 })
 export default connect(null, mapDispatchToProps)(PracticeFilterComponent);
 

@@ -8,7 +8,7 @@ const INITIALSTATE = {
   currentPractice: {
     link: ''
   },
-  practicePath: ''
+  practiceDetails: {}
 }
 
 
@@ -27,7 +27,7 @@ export const defaultReducer =  (state = INITIALSTATE, action) => {
   case 'SET_PRACTICE_PATH':
     return {
       ...state,
-      practicePath: action.topicPath
+      practiceDetails: action.params
     }
   default:
    return state
