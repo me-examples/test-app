@@ -1296,7 +1296,7 @@ const isDisabled = !((currentSubject && currentChapter && currentSection && curr
             }}
             type="text"
             className="form-control"
-            id="search"
+            placeholder="Search Anything"
           />
         </div>
         <div className="col-sm-2">
