@@ -1242,7 +1242,7 @@ const getDifficultyOptions = () => {
 }
 const [currentDifficulty, setDifficulty] = useState();
 const [currentSearch, setCurrentSearch] = useState('');
-const isDisabled = !((currentSubject && currentChapter && currentSection && currentDifficulty) || currentSearch.length);
+const isDisabled = !(currentSubject || currentChapter || currentSection || currentDifficulty || currentSearch.length);
 	return (
 		<div className="container-fluid">
 		  <div className="well well-sm">
@@ -1303,11 +1303,29 @@ const isDisabled = !((currentSubject && currentChapter && currentSection && curr
           <button
             onClick={(v) => {
               if (currentSearch) {
-                 setPracticeList({path: '', level4: '', currentSearch});
+                setPracticeList({path: '', level4: '', currentSearch});
               } else {
-                const path = `Practice/${currentSubject.value}/${currentChapter.value}/${currentSection.value}/${currentDifficulty.value}`;
-                const level4 = difficulties[currentSubject.value][currentChapter.value][currentSection.value]
-                setPracticeList({path, level4, currentSearch: ''});
+                if (currentSubject && currentChapter && currentSection && currentDifficulty) {
+                  const path = `Practice/${currentSubject.value}/${currentChapter.value}/${currentSection.value}/${currentDifficulty.value}`;
+                  const level4 = difficulties[currentSubject.value][currentChapter.value][currentSection.value]
+                  setPracticeList({path, level4, currentSearch: ''});
+                } else {
+                  let link = 'Practice';
+                  if(currentSubject) {
+                    link = `${link}/${currentSubject.value}`
+                  }
+                  if(currentChapter) {
+                    link = `${link}/${currentChapter.value}`
+                  }
+                  if(currentSection) {
+                    link = `${link}/${currentSection.value}`
+                  }
+                  if(currentDifficulty) {
+                    link = `${link}/${currentDifficulty.value}`
+                  }
+                  const search = link;
+                  setPracticeList({path: '', level4: '', currentSearch: search});
+                }
               }
             }}
             disabled={isDisabled}
