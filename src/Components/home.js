@@ -10,10 +10,15 @@ const videos = {
 	7: 'https://www.youtube.com/embed/28Kplr_9wxg',
 	8: 'https://www.youtube.com/watch?v=JMJXvsCLu6s',
 	9: 'https://www.youtube.com/embed/UZb2NOHPA2A',
-	10: 'https://www.youtube.com/embed/dWDIoW7f6js'
+	10: 'https://www.youtube.com/embed/dWDIoW7f6js',
+	11: 'https://www.youtube.com/embed/O1C9zOQpKG4',
+	12: 'https://www.youtube.com/embed/wfATiSQ3Jew',
+	13: 'https://www.youtube.com/embed/kSVf0Du5-JU',
+	14: 'https://www.youtube.com/embed/nLGBEETtEPc',
+	15: 'https://www.youtube.com/embed/YVVTZgwYwVo',
 }
 const getSRC = () => {
-	const key = Math.floor(Math.random() * 10) + 1;
+	const key = Math.floor(Math.random() * 15) + 1;
 	return videos[key];
 }
 const Home = ({videoDetails}) => {
